@@ -1,0 +1,32 @@
+{
+  "name": "importify",
+  "version": "0.0.1",
+  "description": "Import modules in global scope",
+  "main": "importify.js",
+  "scripts": {
+    "build": "coffee -c importify.coffee",
+    "clean": "rm importify.js",
+    "prepublish": "npm run build",
+    "postpublish": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/btmills/importify.git"
+  },
+  "keywords": [
+    "import",
+    "importify",
+    "require",
+    "include"
+  ],
+  "author": "Brandon Mills @brandontmills",
+  "license": "BSD 3-Clause",
+  "bugs": {
+    "url": "https://github.com/btmills/importify/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.12.0"
+  }
+}
