@@ -8,7 +8,7 @@
     "clean": "rm importify.js",
     "prepublish": "npm run build",
     "postpublish": "npm run clean",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "coffee test/test.coffee"
   },
   "repository": {
     "type": "git",
